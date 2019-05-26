@@ -1,4 +1,4 @@
-# Copyright (C) 2018 The uOFW team
+# Copyright (C) 2019 The uOFW team
 # See the file COPYING for copying permission.
 
 # Export file automatically generated with prxtool
@@ -10,8 +10,8 @@ PSP_EXPORT_VAR_HASH(module_sdk_version)
 PSP_EXPORT_END
 
 PSP_EXPORT_START(sceParseHttp, 0x0011, 0x0001)
-PSP_EXPORT_FUNC_HASH(sceParseHttpStatusLine)
-PSP_EXPORT_FUNC_HASH(sceParseHttpResponseHeader)
+PSP_EXPORT_FUNC_NID(sceParseHttpStatusLine, 0x8077A433)
+PSP_EXPORT_FUNC_NID(sceParseHttpResponseHeader, 0xAD7BFDEF)
 PSP_EXPORT_END
 
 PSP_END_EXPORTS

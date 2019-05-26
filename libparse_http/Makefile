@@ -1,4 +1,5 @@
-# Copyright (C) 2018 The uOFW team
+    
+# Copyright (C) 2019 The uOFW team
 # See the file COPYING for copying permission.
 
 TARGET = libparse_http
