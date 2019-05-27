@@ -98,10 +98,10 @@ s32 sub_000003A0(u8 *a0, u32 a1, s32 *a2, s32 *a3) {
 
 // Subroutine sub_00000510 - Address 0x00000510
 s32 sub_00000510(u8 *a0, u32 a1, s32 *a2) {
-	s32 var0 = 0x80432060;
+	s32 var0 = SCE_PARSE_HTTP_INVALID_RESPONSE;
 
 	if (3 < a1) {
-		var0 = 0x80432060;
+		var0 = SCE_PARSE_HTTP_INVALID_RESPONSE;
 
 		if (((*(u8 *)((s32)*a0 + 1) & 4) != 0) && ((*(u8 *)((s32)a0[1] + 1) & 4) != 0)) {
 			if ((*(u8 *)((s32)a0[2] + 1) & 4) != 0) {
